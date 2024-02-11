@@ -9,4 +9,56 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --accent-color: #ff0070;
+  --title-decor-color: #ff0070;
+  --button-color: #353430;
+  --text-shadow-color: #ff0070;
+  --title-stile-color: #353430;
+  --background-advice-color: #ff8dcb;
+  --background-color: #000028;
+  --main-font: "IBM Plex Mono";
+  --header-title-color: #ffc2e6;
+  --menu-button-hover: rgba(50, 49, 45, 0.4);
+  --background-image: url(../images/cover-image-light.png);
+  --focus-text-color: #353430;
+  --hover-text-color: #353430;
+  --subtitle-advice-color: #353430;
+  --background-title-decor: #ff8dcb;
+  --title-decor-color: #353430;
+  --decor-color: #353430;
+  --link-text-shadow: #ff8dcb;
+  --text-color: #353430;
+}
+
+.theme_light .header__record-sign {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff0070;
+    --title-decor-color: #ff0070;
+    --button-color: #353430;
+    --text-shadow-color: #ff0070;
+    --title-stile-color: #353430;
+    --background-advice-color: #ff8dcb;
+    --background-color: #000028;
+    --main-font: "IBM Plex Mono";
+    --header-title-color: #ffc2e6;
+    --menu-button-hover: rgba(50, 49, 45, 0.4);
+    --background-image: url(../images/cover-image-light.png);
+    --focus-text-color: #353430;
+    --hover-text-color: #353430;
+    --subtitle-advice-color: #353430;
+    --background-title-decor: #ff8dcb;
+    --title-decor-color: #353430;
+    --decor-color: #353430;
+    --link-text-shadow: #ff8dcb;
+    --text-color: #353430;
+  }
+
+  .header__record-sign {
+    display: none;
+  }
 }
